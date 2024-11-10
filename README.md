@@ -25,3 +25,56 @@ You can install all required packages using the following command:
 
 ```bash
 pip install pandas numpy matplotlib seaborn joblib scikit-learn imbalanced-learn tensorflow
+````
+
+## Directory Structure and File Descriptions
+
+### combined_generative
+
+- **models_and_preprocessor/**
+  - `average_score_model.h5`: -.
+  - `label_encoders.pkl`: -.
+  - `learning_pace.pkl`: Model file used to predict a student's learning pace based on input features.
+  - `logistic_model.pkl`: -.
+  - `preprocessor.pkl`: -.
+
+- **static/**: Contains static assets like CSS used in the web application interface.
+
+- **templates/**: Holds HTML templates for rendering the web application UI.
+
+- **annie_model.ipynb**: Jupyter notebook with experiments and model development on predicting learning pace. 
+
+- **app.py**: The main application script that runs the Flask web server, handling requests and serving the front-end interface.
+
+- **combined_model.ipynb**: Jupyter notebook combining all models into a unified pipeline, coordinating inputs across multiple models.
+
+- **elaine_model.ipynb**: Jupyter notebook with experiments and model development on predicting student's grade. 
+
+- **rosie_model.ipynb**: Jupyter notebook with experiments and model development on predicting student's performance level.
+
+## How to Run the Web Page
+
+To start the web application and interact with it to get your tailored study plan, follow these steps:
+
+1. **Navigate to the `combined_generative` folder**:
+
+   ```bash
+   cd combined_generative
+   ```
+2. Run the Flask application:
+
+   ```bash
+   python app.py
+   ```
+3. **Open the web application**:
+
+   Once the application is running, open your web browser and go to [http://127.0.0.1:5000](http://127.0.0.1:5000).
+
+4. **Interact with the Web Page**:
+
+   Use the web interface to input your data and find out your personalized study plan!
+
+Now you can explore the application to see the personalized study plans generated based on your input.
+
+
+   
