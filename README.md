@@ -32,7 +32,7 @@ pip install pandas numpy matplotlib seaborn joblib scikit-learn imbalanced-learn
 ### combined_generative
 
 - **models_and_preprocessor/**
-  - `average_score_model.h5`: Pre-trained Neural Network model file for predicting a student's average score base on several features..
+  - `average_score_model.h5`: Pre-trained Neural Network model file for predicting a student's average score base on several features.
   - `label_encoders.pkl`: Feature transformation for the logistic model.
   - `learning_pace.pkl`: Model file used to predict a student's learning pace based on input features.
   - `logistic_model.pkl`: Pre-trained logistic model for predicting student's performance level.
