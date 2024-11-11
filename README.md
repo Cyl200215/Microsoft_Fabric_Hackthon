@@ -1,5 +1,7 @@
 # Microsoft_Fabric_Hackthon
 
+[Devpost](https://devpost.com/software/ai-educational-planner?ref_content=user-portfolio&ref_feature=in_progress)
+
 ## Required Packages
 
 To run this project, ensure you have the following Python packages installed:
