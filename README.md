@@ -10,7 +10,7 @@ To run this project, ensure you have the following Python packages installed:
 - `matplotlib` 
 - `seaborn` 
 - `joblib`
-- `scikit-learn` for machine learning models and tools:
+- `scikit-learn 1.5.2` for machine learning models and tools:
   - `LogisticRegression` 
   - `RandomForestClassifier` 
   - `accuracy_score`, `confusion_matrix`, and `classification_report`
@@ -26,6 +26,7 @@ You can install all required packages using the following command:
 ```bash
 pip install pandas numpy matplotlib seaborn joblib scikit-learn imbalanced-learn tensorflow
 ````
+> **Note:** If you encounter any package version issues (such as attribute errors), please refer to `requirements.txt` for specific package versions.
 
 ## Directory Structure and File Descriptions
 
